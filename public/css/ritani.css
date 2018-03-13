@@ -1,0 +1,58 @@
+html, body {
+  height: 50%;
+}
+
+#app {
+  position: relative;
+  height: auto;
+  margin-top: 50px;
+  align-items: center;
+}
+
+#results {
+  position: relative;
+  height: auto;
+  margin-top: 20px;
+}
+
+img {
+  border: 0px;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+#error {
+  position: relative;
+  height: auto;
+  margin-top: 20px;
+}
+
+#search {
+  position: absolute;
+}
+
+ul, li {
+  color: #FFF;
+  span {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+input, button {
+  margin: 10px;
+}
+
+body {
+  background: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
